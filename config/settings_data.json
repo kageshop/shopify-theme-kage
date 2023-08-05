@@ -3,6 +3,8 @@
     "container_width": 1200,
     "container_fluid_width": 1620,
     "container_fluid_offset": 65,
+    "page_transition": true,
+    "animations": "fade-in-up",
     "color_primary": "#000000",
     "color_main_bg": "#ffffff",
     "color_field_bg": "#ffffff",
@@ -71,8 +73,6 @@
     "cookie_consent_theme": "white",
     "instagram_token": "",
     "custom_css": ".sf-topbar {\n  border-color: #eee;\n}\n.sf__font-normal {\n  font-weight: 400;\n}\nbody .sf-footer__block .social-media-links {\n  gap: 12px;\n  margin: 0;\n  padding: 5px;\n  flex-wrap: wrap;\n}\n\nbody .sf-footer__block .social-media-links a {\n  color: #222;\n  width: 48px;\n  height: 48px;\n  padding: 0;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 50%;\n  background-color: #E9E9E9;\n  transition: all .3s;\n}\n\nbody .sf-footer__block .social-media-links a:hover {\n  background-color: #222;\n  color: #fff;\n  box-shadow: 0 0 0 0.2rem #222;\n}\n\n@media (min-width: 1536px) {\n  body .sf__footer-block-newsletter .sf__footer-block-title {\n    font-size: 42px;\n  }\n}",
-    "page_transition": true,
-    "animations": "fade-in-up",
     "sections": {
       "header": {
         "type": "header",
@@ -87,7 +87,7 @@
               "show_stores_page": false,
               "show_currency_switcher": true,
               "show_language_switcher": true,
-              "alert_message": "<span>Open Doors To A World Of Fashion  |  <a class=\"sf__text-link  ml-1 underline\" href=\"#\">Discover More</a><span></span></span>"
+              "alert_message": "<span>Open Doors To A World Of Fashion  |  <a class=\"sf__text-link  ml-1 underline\" href=\"#\">Discover More<\/a><span><\/span><\/span>"
             }
           },
           "5b9aec5f-b955-4765-9a87-1962d613e909": {
@@ -104,7 +104,7 @@
               "heading": "Shop",
               "container": "container",
               "banner_style": "outside",
-              "banner_image": "shopify://shop_images/mega-menu-banner.jpg",
+              "banner_image": "shopify:\/\/shop_images\/mega-menu-banner.jpg",
               "banner_link": "",
               "banner_title": "The New - Season Shoes Edit",
               "banner_desc": "",
@@ -182,7 +182,7 @@
             "type": "our_store",
             "settings": {
               "title": "Our store",
-              "description": "<p>Find a location nearest<br/>you. <a href=\"#\" title=\"#\"><span style=\"text-decoration:underline\">See Our Stores</span></a></p>",
+              "description": "<p>Find a location nearest<br\/>you. <a href=\"#\" title=\"#\"><span style=\"text-decoration:underline\">See Our Stores<\/span><\/a><\/p>",
               "show_email": true,
               "show_phone": true,
               "show_socials_link": false,
@@ -224,7 +224,7 @@
           "show_announcement": true,
           "homepage_only": true,
           "show_close": true,
-          "message": "<span class=\"font-medium\" style=\"font-size: 15px;\">Free Delivery on orders over £120. Don’t miss discount.</span>",
+          "message": "<span class=\"font-medium\" style=\"font-size: 15px;\">Free Delivery on orders over £120. Don’t miss discount.<\/span>",
           "message_link": "",
           "show_divider": false
         }

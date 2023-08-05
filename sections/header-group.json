@@ -5,7 +5,7 @@
     "annoucement": {
       "type": "annoucement",
       "settings": {
-        "show_announcement": true,
+        "show_announcement": false,
         "homepage_only": true,
         "show_close": true,
         "message": "<span class=\"font-medium\" style=\"font-size: 15px;\">Free Delivery on orders over £120. Don’t miss discount.<\/span>",
@@ -46,6 +46,7 @@
         "logo_max_width": 145,
         "sticky_logo_max_width": 145,
         "mobile_logo_max_width": 110,
+        "main_menu": "main-menu",
         "secondary_menu": "",
         "mobile_menu": "",
         "uppercase_parent_level": false,
